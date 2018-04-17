@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 70px;
+    background-color: #0084FF;
+    text-align: center;
+    overflow:hidden; 
+    color: ;
+}
+.content {
+    overflow: hidden;
+}
+.sidebar {
+    min-height: 470px;
+    background-color: darkcyan;
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    color:;
+  }
+.section {
+    min-height: 470px;
+    background-color: cadetblue;
+    width: 80%;
+    overflow: hidden;
+    text-align: center;
+    color: ;
+}
+.footer {
+    min-height: 100px;
+    background-color: #0084FF;
+    overflow: hidden;
+    color: ;
+    text-align: center;
+  } 
+.box {
+    min-height: 100px;
+    width: 40%;
+    overflow: hidden;
+    background-color: #FEF881 ;
+    color: black;
+    float: left;
+    margin: 40px 25px;
+    padding: 25px 25px;
+    
+}
