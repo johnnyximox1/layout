@@ -1,0 +1,148 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+/*   header start */
+header {
+    overflow: hidden;
+    min-height: 100px;
+    background-color: #012D2E;
+    
+}
+.wrapper {
+    overflow: hidden;
+    width: 81%;
+    min-height: 100px;
+    margin: 0 auto;
+}
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.nav {
+    width: 60%;
+    float: right;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li {
+    float: left; 
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none; 
+    padding: 15px 20px;
+    display: block;
+    margin-top: 50px;
+    color:white;
+    transition: .5s;
+}
+.nav ul li:last-child a{
+     padding-right: 0;
+}
+.nav ul li a:hover{
+    color: #012D2E;
+    background-color: #03D5BC;
+}
+/* header end */
+
+/*banner start*/
+.banner {
+    background-image: url(../img/601846.jpg);
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-size: cover;
+    background-position:center;
+    overflow: hidden;
+}
+
+.banner_content {
+    width: 50%;
+        color: white;
+    margin-top: 180px;
+        background-color: ;
+    border: none;
+}
+.banner_content h2 {
+    font-size: 50px;
+}
+.banner_content h1{
+font-size: 60px;
+color: #012D2E; 
+}
+.banner_content p {
+    font-size: 21px;
+}
+.banner_content button {
+       font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    background-color: #012D2E;
+}
+.banner_content button:hover {
+    color: #009EDC;
+}
+/*banner end*/
+/* service start*/
+
+.service {
+    background-color: #012D2E;
+    overflow: hidden;
+    
+}
+.wrapper_two {
+    width: 81%;  
+    margin: 0 auto;
+}
+.services {
+    overflow: hidden;
+    padding: 50px 0;
+}
+.single { 
+float: left;
+width: 30%;
+    padding: 10px 18px;
+}
+.single:last-child {
+    border: none;
+        
+}
+.single_header {
+    overflow: hidden;
+} 
+.single_logo  {width: 30% ; float:left;}
+
+
+.single_logo img{
+    width: 100%;
+}
+
+.single_text {
+    float: left;
+width: 60%;
+    padding: 13px;
+}
+
+
+.para_one {
+    font-size: 30px;
+    color: white;
+}
+.para_two {
+    font-size: 35px;
+    color: #03D5BC;
+}
+.single_content {}
+.single_content p {
+        font-size: 17px;
+    color: white;
+    line-height: 22px;
+}
+
+
+
+
